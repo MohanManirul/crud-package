@@ -1,1 +1,11 @@
-composer require mohanmanirul/crud-package
+composer require manirul/crudpackage
+D:\laragon\www\multilanguage\vendor\manirul\crudpackage
+
+🔎 এখন confirm করি: Laravel কি package load করছে?
+1️⃣ Route আছে কিনা দেখো
+php artisan route:list
+যদি দেখো: GET  posts তাহলে package route load হয়েছে ✔️
+
+Composer দিয়ে install করা package কখনোই root directory তে আসে না।
+
+✅ Step 3: User project থেকে publish করো : php artisan vendor:publish --tag=migrations

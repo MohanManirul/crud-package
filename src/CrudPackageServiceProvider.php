@@ -13,7 +13,7 @@ class CrudPackageServiceProvider extends ServiceProvider
  
         $this->publishes([
             __DIR__.'/../database/migrations' => database_path('migrations'),
-        ], 'migrations');
+        ], 'crudpackage-migrations');
     }
 
     public function register()
