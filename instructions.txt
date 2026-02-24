@@ -8,4 +8,10 @@ php artisan route:list
 
 Composer দিয়ে install করা package কখনোই root directory তে আসে না।
 
-✅ Step 3: User project থেকে publish করো : php artisan vendor:publish --tag=migrations
+✅ Step 3: User project থেকে publish করো : php artisan vendor:publish --tag=crudpackage-migrations
+php artisan migrate
+http://127.0.0.1:8000/posts
+
+git e update korar por version update command dite hobe
+git tag v1.0.2
+git push origin main --tags
